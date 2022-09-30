@@ -1,6 +1,6 @@
 import PhysicsList from "./PhysicsList";
 
-const Physics = (props) => {
+const Physics = () => {
   return <PhysicsList />;
 };
 
