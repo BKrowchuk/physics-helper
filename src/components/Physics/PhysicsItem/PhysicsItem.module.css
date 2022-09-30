@@ -1,5 +1,7 @@
 .card {
   margin: 1rem auto;
+  width: 95%;
+  max-width: 30rem;
   background: var(--background-color);
   color: white;
 }

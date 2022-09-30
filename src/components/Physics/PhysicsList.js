@@ -20,7 +20,7 @@ const DUMMY_ITEMS = [
 const PhysicsList = () => {
   return (
     <section className={classes.section}>
-      <Card>
+      <Card className={classes.card}>
         {DUMMY_ITEMS.map((item) => {
           return (
             <PhysicsItem

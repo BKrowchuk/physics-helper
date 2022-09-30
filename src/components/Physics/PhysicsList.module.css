@@ -1,5 +1,5 @@
 .section {
-  max-width: 40rem;
+  max-width: 65rem;
   width: 95%;
   margin: 2rem auto;
   animation: card-appear 1s ease-out forwards;
@@ -18,4 +18,8 @@
   to {
     opacity: 1;
   }
+}
+
+.card {
+  display: flex;
 }
