@@ -6,7 +6,7 @@ import classes from "./Header.module.css";
 const Header = (props) => {
   return (
     <header className={classes["header"]}>
-      <h1>A Typical Page</h1>
+      <h1>Physics Helper</h1>
       <Navigation />
     </header>
   );

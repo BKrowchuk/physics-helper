@@ -17,3 +17,7 @@ body {
   --secondary-color: rgb(66, 121, 192);
   --background-color: rgb(23, 76, 146);
 }
+
+main {
+  margin-top: 6rem;
+}
