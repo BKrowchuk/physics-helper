@@ -15,4 +15,5 @@ body {
 :root {
   --main-color: #06c;
   --secondary-color: rgb(66, 121, 192);
+  --background-color: rgb(23, 76, 146);
 }

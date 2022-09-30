@@ -1,16 +1,14 @@
-import { useContext } from "react";
+import React from "react";
+
+import Navigation from "./Navigation";
 import classes from "./Header.module.css";
-import AuthContext from "../../store/auth-context";
-import Button from "../UI/Button";
 
-const Header = () => {
-  const ctx = useContext(AuthContext);
-
+const Header = (props) => {
   return (
-    <>
-      {!ctx.isLoggedIn && <Button onClick={ctx.onLogin}>Login</Button>}
-      {ctx.isLoggedIn && <Button onClick={ctx.onLogout}>Logout</Button>}
-    </>
+    <header className={classes["header"]}>
+      <h1>A Typical Page</h1>
+      <Navigation />
+    </header>
   );
 };
 
